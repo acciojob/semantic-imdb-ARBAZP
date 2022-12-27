@@ -4,10 +4,73 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+        body{
+            margin:0%;
+        }
+        nav{
+            display: flex;
+           height: 70px;
+         background-color: rgb(255, 196, 196); 
+         
+        }
+       ul{
+        display: flex;
+         padding: center;
+         text-decoration: none;
+         padding-top: 10px;
+       }
+       a{
+        text-decoration: none;
+        padding-right: 60px;
+        font-size: 1.5em;
+        padding: center;
+       }
+       h1{
+         font-style: oblique;
+         font-size: 4em;
+       }
+       .summary{
+        width: 500px;
+        font-size: 1.2em;
+       }
+       .actor{
+        position:absolute;
+       margin-top: 20px;
+       }
+      .quote{
+        margin-top: 60px;
+      }
+
+    </style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<nav>
+       <div id="nav">
+        <ul>
+           <a href="#actor" id="nav-actor">Actors</a>
+           <a href="#quote" id="nav-quote">Quotes</a>
+         </ul>
+       </div> 
+    </nav>
+    <header>
+        <h1>The Mandalorian </h1>
+    </header>
+    <div class="summary">
+    <summary id="summary">After the defeat of the Empire at the hands of Rebel forces, a lone bounty hunter operating in the Outer Rim,
+         away from the dominion of the New Republic, goes on many surprising and risky adventures.</summary>
+        </div>
+        <section class="actor" >Pedro Pascal
+        </section>
+        <section class="quote">This is the way</section>
+        <br>
+        <aside>
+            < Action-packed and expertly-crafted -- if at times a bit too withholding -- The Mandalorian is a welcome addition to the Star Wars universe that benefits greatly from the cuteness of its cargo.p>
+            </p>
+        </aside>
+        <footer>Produced by: &lt name &gt</footer>
     <script type="text/javascript" src="./script.js">
 </script>
 
